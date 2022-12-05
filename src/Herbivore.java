@@ -9,7 +9,6 @@ public class Herbivore extends Mammal{
 
     @Override
     void sleep() {System.out.println("they sleep on the ground.");}
-
     @Override
     void go() {System.out.println("they move around the earth.");}
 
