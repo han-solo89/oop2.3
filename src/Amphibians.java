@@ -3,7 +3,6 @@ public final class Amphibians extends Animal {
     protected Amphibians(String name, int age, String livingEnvironment) {
         super(name, age, livingEnvironment);
     }
-
     @Override
     void eat() {System.out.println("they eat insects");}
 

@@ -2,7 +2,6 @@ public class Predator extends Mammal{
     public Predator(String name, int age, String livingEnvironment, int movemetSpeed, String food) {
         super(name, age, livingEnvironment, movemetSpeed, food);
     }
-
     @Override
     void eat() {System.out.println("eating." + getFood());}
 

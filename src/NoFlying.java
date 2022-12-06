@@ -16,7 +16,6 @@ public class NoFlying extends Birds {
 
     @Override
     public void hunting() {System.out.println("they hunt insects, fish.");}
-
     @Override
     public String toString() {
         return "Herbivore{" +

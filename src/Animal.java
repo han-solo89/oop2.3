@@ -2,7 +2,6 @@ import java.util.Objects;
 
 import static ValidateUtils.validateInteger;
 import static ValidateUtils.validateString;
-
 public abstract class Animal {
     private String name;
     private int age;
